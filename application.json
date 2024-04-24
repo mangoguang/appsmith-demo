@@ -1,0 +1,55 @@
+{
+  "pages": [
+    {
+      "id": "Submit new order",
+      "isDefault": false
+    },
+    {
+      "id": "Home Page",
+      "isDefault": false
+    },
+    {
+      "id": "Admin",
+      "isDefault": false
+    },
+    {
+      "id": "My orders",
+      "isDefault": false
+    },
+    {
+      "id": "用户",
+      "isDefault": false
+    },
+    {
+      "id": "订单管理",
+      "isDefault": true
+    },
+    {
+      "id": "移动页面",
+      "isDefault": false
+    },
+    {
+      "id": "设置",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "clonedFromApplicationId": "62b334e22ff7e42f71a2a124",
+  "color": "#FBF4ED",
+  "icon": "mug",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "publishedAppLayout": {
+    "type": "FLUID"
+  },
+  "unpublishedCustomJSLibs": [],
+  "publishedCustomJSLibs": [],
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "isManualUpdate": false,
+  "viewerLayout": "{\"color\":\"#16a34a\",\"logoUrl\":\"\",\"name\":\"管理后台\",\"treeData\":[{\"title\":\"用户\",\"pageId\":\"66254a42600c54529653942b\",\"isPage\":true,\"icon\":\"friends-o\"},{\"title\":\"订单管理\",\"pageId\":\"66254f1f600c545296539436\",\"isPage\":true,\"icon\":\"label-o\"}],\"outsiderTree\":[{\"title\":\"移动页面\",\"pageId\":\"6625560b600c54529653943d\",\"isPage\":true},{\"title\":\"Submit new order\",\"pageId\":\"66255d95600c545296539448\",\"isPage\":true},{\"title\":\"设置\",\"pageId\":\"66255d0e600c545296539440\",\"isPage\":true,\"expanded\":true}]}",
+  "deleted": false
+}

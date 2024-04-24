@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "OrderObject",
+    "pageId": "订单管理",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "订单管理_OrderObject",
+  "deleted": false,
+  "gitSyncId": "66254a42600c545296539429_6626017c600c545296539486"
+}

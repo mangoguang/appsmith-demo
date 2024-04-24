@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Submit new order",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Submit new order_JSObject1",
+  "deleted": false,
+  "gitSyncId": "66254a42600c545296539429_66255d96600c54529653946b"
+}
