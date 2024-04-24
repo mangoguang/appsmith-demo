@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "OrderObject",
+    "pageId": "数据看板",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "数据看板_OrderObject",
+  "deleted": false,
+  "gitSyncId": "66254a42600c545296539429_66289ab77189a415a7f3e2b6"
+}

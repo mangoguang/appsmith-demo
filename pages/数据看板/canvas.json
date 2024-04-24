@@ -1,0 +1,567 @@
+{
+  "unpublishedPage": {
+    "name": "数据看板",
+    "slug": "",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 540,
+          "containerStyle": "none",
+          "snapRows": 73,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 77,
+          "minHeight": 750,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "widgetName": "Container1",
+              "borderColor": "#E0DEDE",
+              "isCanvas": true,
+              "displayName": "容器",
+              "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
+              "searchTags": [
+                "div",
+                "parent",
+                "group",
+                "container"
+              ],
+              "topRow": 0,
+              "bottomRow": 54,
+              "parentRowSpace": 10,
+              "type": "CONTAINER_WIDGET",
+              "hideCard": false,
+              "shouldScrollContents": true,
+              "animateLoading": true,
+              "parentColumnSpace": 16.5625,
+              "leftColumn": 0,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "boxShadow"
+                }
+              ],
+              "children": [
+                {
+                  "widgetName": "Canvas1",
+                  "displayName": "Canvas",
+                  "topRow": 0,
+                  "bottomRow": 540,
+                  "parentRowSpace": 1,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": false,
+                  "hideCard": true,
+                  "minHeight": 100,
+                  "parentColumnSpace": 1,
+                  "leftColumn": 0,
+                  "dynamicBindingPathList": [],
+                  "children": [
+                    {
+                      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+                      "widgetName": "Container2",
+                      "borderColor": "#E0DEDE",
+                      "isCanvas": true,
+                      "displayName": "容器",
+                      "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
+                      "searchTags": [
+                        "div",
+                        "parent",
+                        "group",
+                        "container"
+                      ],
+                      "topRow": 8,
+                      "bottomRow": 52,
+                      "parentRowSpace": 10,
+                      "type": "CONTAINER_WIDGET",
+                      "hideCard": false,
+                      "shouldScrollContents": true,
+                      "animateLoading": true,
+                      "parentColumnSpace": 16.25,
+                      "leftColumn": 0,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "boxShadow"
+                        }
+                      ],
+                      "children": [
+                        {
+                          "widgetName": "Canvas2",
+                          "displayName": "Canvas",
+                          "topRow": 0,
+                          "bottomRow": 440,
+                          "parentRowSpace": 1,
+                          "type": "CANVAS_WIDGET",
+                          "canExtend": false,
+                          "hideCard": true,
+                          "minHeight": 100,
+                          "parentColumnSpace": 1,
+                          "leftColumn": 0,
+                          "dynamicBindingPathList": [],
+                          "children": [
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "Echarts1",
+                              "allowScroll": false,
+                              "displayName": "Echarts",
+                              "iconSVG": "/static/media/icon.d639d74ea3f095d6be69c6db4b415df6.svg",
+                              "searchTags": [
+                                "graph",
+                                "echart",
+                                "chart",
+                                "visualisations"
+                              ],
+                              "topRow": 0,
+                              "bottomRow": 42,
+                              "parentRowSpace": 10,
+                              "customEchartConfig": {
+                                "title": {
+                                  "text": "基础折线图"
+                                },
+                                "xAxis": {
+                                  "type": "category",
+                                  "data": [
+                                    "Mon",
+                                    "Tue",
+                                    "Wed",
+                                    "Thu",
+                                    "Fri",
+                                    "Sat",
+                                    "Sun"
+                                  ]
+                                },
+                                "yAxis": {
+                                  "type": "value"
+                                },
+                                "series": [
+                                  {
+                                    "data": [
+                                      150,
+                                      230,
+                                      224,
+                                      218,
+                                      135,
+                                      147,
+                                      260
+                                    ],
+                                    "type": "line"
+                                  }
+                                ]
+                              },
+                              "type": "ECHART_WIDGET",
+                              "registerMapName": "客户销售占比",
+                              "hideCard": false,
+                              "chartData": {
+                                "jga3sc87s7": {
+                                  "type": "line",
+                                  "seriesName": "秋季系列",
+                                  "data": "{{OrderObject.getPieChartData.data}}"
+                                }
+                              },
+                              "animateLoading": true,
+                              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                              "parentColumnSpace": 16.5625,
+                              "dynamicTriggerPathList": [],
+                              "leftColumn": 0,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "accentColor"
+                                },
+                                {
+                                  "key": "fontFamily"
+                                },
+                                {
+                                  "key": "chartData.jga3sc87s7.data"
+                                }
+                              ],
+                              "mycustom": 2,
+                              "key": "o0mwvwv0pd",
+                              "isDeprecated": false,
+                              "rightColumn": 64,
+                              "widgetId": "je4c5bukss",
+                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "isVisible": true,
+                              "version": 1,
+                              "parentId": "w61q2r31t4",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "yAxisName": "销量",
+                              "originalTopRow": 22,
+                              "chartName": "",
+                              "borderRadius": "0px",
+                              "xAxisName": "客户名称",
+                              "originalBottomRow": 58,
+                              "chartType": "PIE_CHART"
+                            }
+                          ],
+                          "key": "2ug9r2lhcp",
+                          "isDeprecated": false,
+                          "rightColumn": 227.5,
+                          "detachFromLayout": true,
+                          "widgetId": "w61q2r31t4",
+                          "containerStyle": "none",
+                          "isVisible": true,
+                          "version": 1,
+                          "parentId": "x3twiwxm2l",
+                          "renderMode": "CANVAS",
+                          "isLoading": false
+                        }
+                      ],
+                      "borderWidth": "1",
+                      "key": "rkl1le14bg",
+                      "backgroundColor": "#FFFFFF",
+                      "isDeprecated": false,
+                      "rightColumn": 31,
+                      "dynamicHeight": "AUTO_HEIGHT",
+                      "widgetId": "x3twiwxm2l",
+                      "containerStyle": "card",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "6sbboab7mg",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "originalTopRow": 8,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "originalBottomRow": 52,
+                      "minDynamicHeight": 10
+                    },
+                    {
+                      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+                      "widgetName": "Container3",
+                      "borderColor": "#E0DEDE",
+                      "isCanvas": true,
+                      "displayName": "容器",
+                      "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
+                      "searchTags": [
+                        "div",
+                        "parent",
+                        "group",
+                        "container"
+                      ],
+                      "topRow": 8,
+                      "bottomRow": 52,
+                      "parentRowSpace": 10,
+                      "type": "CONTAINER_WIDGET",
+                      "hideCard": false,
+                      "shouldScrollContents": true,
+                      "animateLoading": true,
+                      "parentColumnSpace": 16.25,
+                      "leftColumn": 31,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "boxShadow"
+                        }
+                      ],
+                      "children": [
+                        {
+                          "widgetName": "Canvas3",
+                          "displayName": "Canvas",
+                          "topRow": 0,
+                          "bottomRow": 440,
+                          "parentRowSpace": 1,
+                          "type": "CANVAS_WIDGET",
+                          "canExtend": false,
+                          "hideCard": true,
+                          "minHeight": 100,
+                          "parentColumnSpace": 1,
+                          "leftColumn": 0,
+                          "dynamicBindingPathList": [],
+                          "children": [
+                            {
+                              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+                              "widgetName": "Echarts2",
+                              "allowScroll": false,
+                              "dynamicPropertyPathList": [],
+                              "displayName": "Echarts",
+                              "iconSVG": "/static/media/icon.d639d74ea3f095d6be69c6db4b415df6.svg",
+                              "searchTags": [
+                                "graph",
+                                "echart",
+                                "chart",
+                                "visualisations"
+                              ],
+                              "topRow": 0,
+                              "bottomRow": 42,
+                              "parentRowSpace": 10,
+                              "customEchartConfig": {
+                                "title": {
+                                  "text": "基础折线图"
+                                },
+                                "xAxis": {
+                                  "type": "category",
+                                  "data": [
+                                    "Mon",
+                                    "Tue",
+                                    "Wed",
+                                    "Thu",
+                                    "Fri",
+                                    "Sat",
+                                    "Sun"
+                                  ]
+                                },
+                                "yAxis": {
+                                  "type": "value"
+                                },
+                                "series": [
+                                  {
+                                    "data": [
+                                      150,
+                                      230,
+                                      224,
+                                      218,
+                                      135,
+                                      147,
+                                      260
+                                    ],
+                                    "type": "line"
+                                  }
+                                ]
+                              },
+                              "type": "ECHART_WIDGET",
+                              "hideCard": false,
+                              "chartData": {
+                                "jga3sc87s7": {
+                                  "type": "line",
+                                  "seriesName": "秋季系列",
+                                  "data": "{{OrderObject.getProductData.data}}"
+                                }
+                              },
+                              "animateLoading": true,
+                              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                              "parentColumnSpace": 16.25,
+                              "dynamicTriggerPathList": [],
+                              "leftColumn": 0,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "borderRadius"
+                                },
+                                {
+                                  "key": "boxShadow"
+                                },
+                                {
+                                  "key": "accentColor"
+                                },
+                                {
+                                  "key": "fontFamily"
+                                },
+                                {
+                                  "key": "chartData.jga3sc87s7.data"
+                                }
+                              ],
+                              "mycustom": 2,
+                              "key": "o0mwvwv0pd",
+                              "isDeprecated": false,
+                              "rightColumn": 64,
+                              "widgetId": "w8bz3f5x1j",
+                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "isVisible": true,
+                              "version": 1,
+                              "parentId": "vyu37wsnjm",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "yAxisName": "销量",
+                              "originalTopRow": 28,
+                              "chartName": "产品销售占比",
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "xAxisName": "品类",
+                              "originalBottomRow": 63,
+                              "chartType": "PIE_CHART"
+                            }
+                          ],
+                          "key": "2ug9r2lhcp",
+                          "isDeprecated": false,
+                          "rightColumn": 113.75,
+                          "detachFromLayout": true,
+                          "widgetId": "vyu37wsnjm",
+                          "containerStyle": "none",
+                          "isVisible": true,
+                          "version": 1,
+                          "parentId": "dkd2x18q59",
+                          "renderMode": "CANVAS",
+                          "isLoading": false
+                        }
+                      ],
+                      "borderWidth": "1",
+                      "key": "rkl1le14bg",
+                      "backgroundColor": "#FFFFFF",
+                      "isDeprecated": false,
+                      "rightColumn": 64,
+                      "dynamicHeight": "AUTO_HEIGHT",
+                      "widgetId": "dkd2x18q59",
+                      "containerStyle": "card",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "6sbboab7mg",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "originalTopRow": 8,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "originalBottomRow": 52,
+                      "minDynamicHeight": 10
+                    },
+                    {
+                      "widgetName": "Text3",
+                      "displayName": "文本",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph",
+                        "label",
+                        "text",
+                        "文字",
+                        "标题",
+                        "段落",
+                        "字符"
+                      ],
+                      "topRow": 1,
+                      "bottomRow": 5,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "parentColumnSpace": 16.25,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 25,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "truncateButtonColor"
+                        },
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "text": "一季度销售业绩分析",
+                      "key": "7ut2t6hfu4",
+                      "isDeprecated": false,
+                      "rightColumn": 37,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "AUTO_HEIGHT",
+                      "widgetId": "gn6xnn5i0t",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "6sbboab7mg",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "originalTopRow": 3,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "originalBottomRow": 9,
+                      "fontSize": "1.25rem",
+                      "minDynamicHeight": 4
+                    }
+                  ],
+                  "key": "2ug9r2lhcp",
+                  "isDeprecated": false,
+                  "rightColumn": 66.25,
+                  "detachFromLayout": true,
+                  "widgetId": "6sbboab7mg",
+                  "containerStyle": "none",
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "lmfat775eb",
+                  "renderMode": "CANVAS",
+                  "isLoading": false
+                }
+              ],
+              "borderWidth": "1",
+              "key": "rkl1le14bg",
+              "backgroundColor": "#FFFFFF",
+              "isDeprecated": false,
+              "rightColumn": 64,
+              "dynamicHeight": "AUTO_HEIGHT",
+              "widgetId": "lmfat775eb",
+              "containerStyle": "card",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "originalTopRow": 0,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "maxDynamicHeight": 9000,
+              "originalBottomRow": 54,
+              "minDynamicHeight": 10
+            }
+          ]
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "数据看板_get_orders",
+              "name": "get_orders",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "数据看板_OrderObject.getPieChartData",
+              "name": "OrderObject.getPieChartData",
+              "collectionId": "数据看板_OrderObject",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "async () => {\n  let res = get_orders.data;\n  return res.map(item => {\n    return {\n      value: item.price * item.count,\n      name: item.customerName\n    };\n  });\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "数据看板_OrderObject.getProductData",
+              "name": "OrderObject.getProductData",
+              "collectionId": "数据看板_OrderObject",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "async () => {\n  let res = get_orders.data;\n  return res.map(item => {\n    return {\n      value: item.price * item.count,\n      name: item.productName\n    };\n  });\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "数据看板",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "66254a42600c545296539429_662899947189a415a7f3e2ae"
+}
