@@ -203,7 +203,7 @@
                               "isLoading": false,
                               "yAxisName": "销量",
                               "originalTopRow": 22,
-                              "chartName": "",
+                              "chartName": "客户销售占比",
                               "borderRadius": "0px",
                               "xAxisName": "客户名称",
                               "originalBottomRow": 58,
