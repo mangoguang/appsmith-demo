@@ -561,7 +561,7 @@
                       "parentRowSpace": 10,
                       "groupButtons": {
                         "groupButton1": {
-                          "label": "新增",
+                          "label": "新增1",
                           "iconName": "add",
                           "id": "groupButton1",
                           "widgetId": "",
